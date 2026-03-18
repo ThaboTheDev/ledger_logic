@@ -51,28 +51,26 @@ class DatabaseManager:
             )
         self.cursor.executemany(sql_command, save_data)
         
-    def apply_categorication(self):
+    def apply_categorization(self):
         with open('rules.yaml', 'r') as file:
-            rules = yaml.safe_load(file)
-            categories = rules["categories"]
-            
-        sql_command: str = """
-            SELECT id, description FROM transactions WHERE category = 'Uncategorized'
-            """
-        query_result = self.cursor.execute(sql_command)
-        fetch_result = query_result.fetchall()
-        to_update: List[Tuple[str, int]] = []
+            rules = yaml.safe_load(file)["categories"]
+                
+        fetch_result = self.cursor.execute(
+            "SELECT id, description FROM transactions WHERE category = 'Uncategorized'"
+        ).fetchall()
         
-        for key, value in categories.items():
-            for data_id, data_description in fetch_result:
-                if re.search(value, data_description, re.IGNORECASE) != None:
-                    to_update.append((key, data_id))
+        to_update = []
+        
+        for data_id, data_description in fetch_result:
+            for cat_name, pattern in rules.items():
+                if re.search(pattern, data_description, re.IGNORECASE):
+                    to_update.append((cat_name, data_id))
                     break
         
-        sql_query = """
-        UPDATE transactions SET category = ? WHERE id = ?
-        """
-        self.cursor.executemany(sql_query, to_update)
+        self.cursor.executemany(
+            "UPDATE transactions SET category = ? WHERE id = ?", 
+            to_update
+        )
                 
    
     @staticmethod    

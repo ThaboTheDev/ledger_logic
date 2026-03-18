@@ -3,6 +3,8 @@ from decimal import Decimal, ROUND_HALF_UP
 import pathlib
 from typing import Self, Tuple, List
 from models.transaction import Transaction
+import yaml
+import re
 
 class DatabaseManager:    
     def __init__(self, file_path: str) -> None:
@@ -34,7 +36,7 @@ class DatabaseManager:
         self.cursor.execute(sql_command)
         
     def save_transactions(self, transactions: List[Transaction]) -> None:
-        sql_command = """
+        sql_command: str = """
         INSERT OR IGNORE INTO transactions (t_date, amount_cents, description, type_code) VALUES (?, ?, ?, ?)
         """
         save_data: List[Tuple[str, int, str, str]] = []
@@ -50,11 +52,26 @@ class DatabaseManager:
         self.cursor.executemany(sql_command, save_data)
         
     def apply_categorication(self):
-        rules = ''
-        sql_command = """
-        SELECT id, description FROM transactions WHERE category = 'Uncategorised'
-        """
+        sql_command: str = """
+            SELECT id, description FROM transactions WHERE category = 'Uncategorized'
+            """
+        query_result = self.cursor.execute(sql_command)
+        fetch_result = query_result.fetchall()
+        to_update: List[Tuple[str, int]] = []
         
+        with open('rules.yaml', 'r') as file:
+            rules = yaml.safe_load(file)
+            categories = rules["categories"]
+            for key, value in categories.items():
+                for data_id, data_description in fetch_result:
+                    if re.search(value, data_description, re.IGNORECASE) != None:
+                        to_update.append((key, data_id))
+        
+        sql_query = """
+        UPDATE transactions SET category = ? WHERE id = ?
+        """
+        self.cursor.executemany(sql_query, to_update)
+                
    
     @staticmethod    
     def _to_cents(amount_in_decimal: Decimal) -> int:

@@ -1,6 +1,6 @@
 # rules.yaml
 categories:
-  Transport: "^DL Bolt|^Uber"
+  Transport: "^DL Bolt|^Uber|Bolt"
   Groceries: "Boxer|Woolworths|Checkers|BRYANSTON"
-  Utilities: "M\*Rain|Telkom|Electric"
+  Utilities: "M\\*Rain|Telkom|Electric"
   Bank Fees: "FEE"

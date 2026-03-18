@@ -52,6 +52,10 @@ class DatabaseManager:
         self.cursor.executemany(sql_command, save_data)
         
     def apply_categorication(self):
+        with open('rules.yaml', 'r') as file:
+            rules = yaml.safe_load(file)
+            categories = rules["categories"]
+            
         sql_command: str = """
             SELECT id, description FROM transactions WHERE category = 'Uncategorized'
             """
@@ -59,13 +63,11 @@ class DatabaseManager:
         fetch_result = query_result.fetchall()
         to_update: List[Tuple[str, int]] = []
         
-        with open('rules.yaml', 'r') as file:
-            rules = yaml.safe_load(file)
-            categories = rules["categories"]
-            for key, value in categories.items():
-                for data_id, data_description in fetch_result:
-                    if re.search(value, data_description, re.IGNORECASE) != None:
-                        to_update.append((key, data_id))
+        for key, value in categories.items():
+            for data_id, data_description in fetch_result:
+                if re.search(value, data_description, re.IGNORECASE) != None:
+                    to_update.append((key, data_id))
+                    break
         
         sql_query = """
         UPDATE transactions SET category = ? WHERE id = ?

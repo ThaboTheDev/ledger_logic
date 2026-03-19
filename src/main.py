@@ -1,8 +1,67 @@
-from ingesters.standard import StandardParser
-from ingesters.absa import AbsaParser
-from ingesters.nedbank import NedbankParser
-from ingesters.capitec import CapitecParser
-from database.manager import DatabaseManager
+from api import create_app
+
+app = create_app()
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# from ingesters.standard import StandardParser
+# from ingesters.absa import AbsaParser
+# from ingesters.nedbank import NedbankParser
+# from ingesters.capitec import CapitecParser
+# from database.manager import DatabaseManager
 
 # inst = StandardParser()
 # with DatabaseManager("data/ledgers.db") as db:

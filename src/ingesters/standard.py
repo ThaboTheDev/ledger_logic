@@ -5,7 +5,7 @@ from typing import List
 from csv import reader
 from datetime import datetime
 
-class HistParser(BaseIngester):
+class StandardParser(BaseIngester):
     def parse(self, file_path: str) -> List[Transaction]:
         transactions: List[Transaction] = []
         transaction_date: datetime.date
@@ -16,8 +16,10 @@ class HistParser(BaseIngester):
         with open(file_path, 'r') as f:
             file_data = reader(f)
             for i in file_data:
+                if not i: continue
+                
                 if i[0] == "HIST":
-                    transaction_date = datetime.strptime(i[1], "%Y%m%d").date()
+                    transaction_date = datetime.strptime(i[1].strip(), "%Y%m%d").date()
                     
                     try:
                         amount = Decimal(i[3])

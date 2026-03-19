@@ -1,7 +1,7 @@
-from ingesters.hist_parser import HistParser
+from src.ingesters.standard import StandardParser
 from database.manager import DatabaseManager
 
-inst = HistParser()
+inst = StandardParser()
 with DatabaseManager("data/ledgers.db") as db:
     data = inst.parse("/home/zani/dev/ledger_logic/data/statement-10-20-933-682-8.csv")
     db.apply_categorization()

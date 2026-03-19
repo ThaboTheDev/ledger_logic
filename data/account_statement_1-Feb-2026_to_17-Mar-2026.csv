@@ -1,0 +1,96 @@
+Nr,Account,Posting Date,Transaction Date,Description,Original Description,Parent Category,Category,Money In,Money Out,Fee,Balance
+1,1503027331,2026-02-01,2026-02-01 18:17,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,500.00,,,523.22
+2,1503027331,2026-02-02,2026-02-02 08:08,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-20.00,,503.22
+3,1503027331,2026-02-02,2026-02-02 08:08,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,502.72
+4,1503027331,2026-02-02,2026-02-02 10:59,Banking App Transfer Received from Save: Transfer,Transfer,Transfer,Transfer,150.00,,,652.72
+5,1503027331,2026-02-02,2026-02-02 11:18,Cash Withdrawal: Ncr Jhb Kerk 2nd Johannesburg Gtza,NCR JHB Kerk 2nd       Johannesburg GTZA,Cash,Cash Withdrawal,,-100.00,,552.72
+6,1503027331,2026-02-02,2026-02-02 11:18,Cash Withdrawal Fee,Cash Withdrawal Fee,Fees,Fees,,,-10.00,542.72
+7,1503027331,2026-02-03,2026-02-01 18:28,Modisetuckshops Johannesburg (Card 9979),S2S*ModiseTuckShops    Johannesburg ZAZA,Food,Groceries,,-300.00,,242.72
+8,1503027331,2026-02-04,2026-02-02 10:11,Food Lover's Market Johannesburg (Card 9979),FLM Bank City Eatery   JOHANNESBURG GPZA,Food,Groceries,,-71.90,,170.82
+9,1503027331,2026-02-04,2026-02-02 12:52,Pep Stores Johannesburg (Card 9979),PEP 6521 Prestasie     JOHANNESBURG GPZA,Personal & Family,Clothing & Shoes,,-13.99,,156.83
+10,1503027331,2026-02-04,2026-02-02 11:00,Clicks Johannesburg (Card 9979),CLICKS KERK STREET     Johannesburg   ZA,Personal & Family,Personal Care,,-124.98,,31.85
+11,1503027331,2026-02-10,2026-02-10 11:08,Banking App Transfer Received from Save: Transfer,Transfer,Transfer,Transfer,42.95,,,74.80
+12,1503027331,2026-02-12,2026-02-10 11:15,Kwa Tshabalala Gen Lawley (Card 9979),AP *Kwa Tshabalala Gen Lawley       GPZA,Uncategorised,Uncategorised,,-11.00,,63.80
+13,1503027331,2026-02-13,2026-02-13 01:23,Live Better Round-up Transfer,Round-up Transfer,Transfer,Transfer,,-9.00,,54.80
+14,1503027331,2026-02-14,2026-02-12 14:15,Bryanston Supermarket Johannesburg (Card 9979),BRYANSTON SUPERMARKET  Johannesburg   ZA,Food,Groceries,,-21.00,,33.80
+15,1503027331,2026-02-16,2026-02-16 21:08,Banking App Transfer from Live Better Savings Account (2037847307),Banking App Transfer from Live Better Savings Account (2037847307),Transfer,Transfer,11.39,,,45.19
+16,1503027331,2026-02-16,2026-02-16 21:08,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-15.00,,30.19
+17,1503027331,2026-02-16,2026-02-16 21:08,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,29.69
+18,1503027331,2026-02-25,2026-02-25 15:06,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,100.00,,,129.69
+19,1503027331,2026-02-27,2026-02-27 09:20,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-14.00,,115.69
+20,1503027331,2026-02-27,2026-02-27 09:20,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,115.19
+21,1503027331,2026-02-27,2026-02-27 19:46,Payment Received: 1742378:sef:2 2026 Transfer 3012718134,1742378:SEF:2 2026            TRANSFER  3012718134,Other Income,Other Income,482.96,,,598.15
+22,1503027331,2026-02-28,2026-02-26 07:16,Card Purchase & Cashback (R70.00): Shoprite Johannesburg (Card 9979),Shoprite Mini JHB CBD  JOHANNESBURG   ZA,Food,Groceries,,-84.99,,513.16
+23,1503027331,2026-02-28,2026-02-28 03:49,Till Cash Withdrawal Fee,Till Cash Withdrawal Fee,Fees,Fees,,,-2.00,511.16
+24,1503027331,2026-02-28,2026-02-28 08:31,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,4100.00,,,4611.16
+25,1503027331,2026-02-28,2026-02-28 10:53,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-30.00,,4581.16
+26,1503027331,2026-02-28,2026-02-28 10:53,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,4580.66
+27,1503027331,2026-02-28,2026-02-28 11:22,ATM Cash Withdrawal: Dsr Lenasia Trade Rm 2lenasia Gtza,DSR  Lenasia Trade RM 2LENASIA      GTZA,Cash,Cash Withdrawal,,-3300.00,,1280.66
+28,1503027331,2026-02-28,2026-02-28 11:22,ATM Cash Withdrawal Fee,ATM Cash Withdrawal Fee,Fees,Fees,,,-40.00,1240.66
+29,1503027331,2026-02-28,2026-02-28 11:53,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-40.00,,1200.66
+30,1503027331,2026-02-28,2026-02-28 11:53,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1200.16
+31,1503027331,2026-02-28,2026-02-28 12:00,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-10.00,,1190.16
+32,1503027331,2026-02-28,2026-02-28 12:00,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1189.66
+33,1503027331,2026-02-28,2026-03-01 01:30,Interest Received,Interest Received,Interest,Interest,0.23,,,1189.89
+34,1503027331,2026-02-28,2026-03-01 01:30,Monthly Account Admin Fee,Monthly Account Admin Fee,Fees,Fees,,,-7.50,1182.39
+35,1503027331,2026-03-01,2026-03-01 09:04,Live Better Interest Sweep,LB Interest Sweep Payments | FEB 2026,Transfer,Transfer,,-0.23,,1182.16
+36,1503027331,2026-03-01,2026-03-01 10:00,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-7.00,,1175.16
+37,1503027331,2026-03-01,2026-03-01 10:00,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1174.66
+38,1503027331,2026-03-01,2026-03-01 11:40,Live Better Round-up Transfer,Round-up Transfer,Transfer,Transfer,,-5.01,,1169.65
+39,1503027331,2026-03-01,2026-03-01 11:40,ATM Cash Withdrawal: Atm05900000s193 Johannesburg Za,ATM05900000S193        Johannesburg   ZA,Cash,Cash Withdrawal,,-300.00,,869.65
+40,1503027331,2026-03-01,2026-03-01 11:40,ATM Cash Withdrawal Fee,ATM Cash Withdrawal Fee,Fees,Fees,,,-10.00,859.65
+41,1503027331,2026-03-01,2026-03-01 11:43,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,500.00,,,1359.65
+42,1503027331,2026-03-01,2026-03-01 15:42,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-5.00,,1354.65
+43,1503027331,2026-03-01,2026-03-01 15:42,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1354.15
+44,1503027331,2026-03-01,2026-03-01 15:47,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,200.00,,,1554.15
+45,1503027331,2026-03-01,2026-03-01 17:38,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-10.00,,1544.15
+46,1503027331,2026-03-01,2026-03-01 17:38,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1543.65
+47,1503027331,2026-03-02,2026-02-28 10:39,Shoprite Lenasiawn (Card 9979),Shoprite Trade Route M LENASIAWN      ZA,Food,Groceries,,-171.28,,1372.37
+48,1503027331,2026-03-02,2026-02-28 10:23,Clicks Lenasia (Card 9979),CLICKS TRADE ROUTE     Lenasia        ZA,Personal & Family,Personal Care,,-213.46,,1158.91
+49,1503027331,2026-03-02,2026-03-02 14:27,Cash Withdrawal: Dnr Lenasia Square 3rd Guateng Gtza,DNR Lenasia Square 3rd Guateng      GTZA,Cash,Cash Withdrawal,,-100.00,,1058.91
+50,1503027331,2026-03-02,2026-03-02 14:27,Cash Withdrawal Fee,Cash Withdrawal Fee,Fees,Fees,,,-10.00,1048.91
+51,1503027331,2026-03-03,2026-03-01 16:08,Card Purchase & Cashback (R200.00): Boxer Johannesburg (Card 9979),Boxer Spr Jeppe Street JOHANNESBURG GPZA,Food,Groceries,,-661.10,,387.81
+52,1503027331,2026-03-03,2026-03-03 02:53,Till Cash Withdrawal Fee,Till Cash Withdrawal Fee,Fees,Fees,,,-2.00,385.81
+53,1503027331,2026-03-03,2026-03-01 11:00,Pep Stores Johannesburg (Card 9979),PEP 8432 Eloff Street  JOHANNESBURG GPZA,Personal & Family,Clothing & Shoes,,-42.98,,342.83
+54,1503027331,2026-03-03,2026-03-01 15:27,KFC Johannesburg (Card 9979),KFC WANDERERS  POS     JOHANNESBURG   ZA,Food,Takeaways,,-149.90,,192.93
+55,1503027331,2026-03-03,2026-03-03 05:27,Live Better Round-up Transfer,Round-up Transfer,Transfer,Transfer,,-15.26,,177.67
+56,1503027331,2026-03-04,2026-03-04 03:52,Live Better Round-up Transfer,Round-up Transfer,Transfer,Transfer,,-16.02,,161.65
+57,1503027331,2026-03-04,2026-03-04 15:20,Banking App Transfer from Live Better Savings Account (2037847307),Banking App Transfer from Live Better Savings Account (2037847307),Transfer,Transfer,30.00,,,191.65
+58,1503027331,2026-03-04,2026-03-04 16:05,ATM Cash Withdrawal: Dnr Jhb The Bridge Johannesburg Gtza,DNR JHB The Bridge     Johannesburg GTZA,Cash,Cash Withdrawal,,-100.00,,91.65
+59,1503027331,2026-03-04,2026-03-04 16:05,ATM Cash Withdrawal Fee,ATM Cash Withdrawal Fee,Fees,Fees,,,-10.00,81.65
+60,1503027331,2026-03-06,2026-03-04 07:51,Astron Energies Rosebank (Card 9979),AE Rosebank            Rosebank       ZA,Food,Groceries,,-36.90,,44.75
+61,1503027331,2026-03-06,2026-03-04 13:02,Bryanston Supermarket Johannesburg (Card 9979),BRYANSTON SUPERMARKET  Johannesburg   ZA,Food,Groceries,,-21.00,,23.75
+62,1503027331,2026-03-10,2026-03-10 20:22,Banking App Transfer from Live Better Savings Account (2037847307),Banking App Transfer from Live Better Savings Account (2037847307),Transfer,Transfer,6.52,,,30.27
+63,1503027331,2026-03-13,2026-03-13 13:46,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,900.00,,,930.27
+64,1503027331,2026-03-13,2026-03-13 15:06,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-30.00,,900.27
+65,1503027331,2026-03-13,2026-03-13 15:06,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,899.77
+66,1503027331,2026-03-13,2026-03-13 21:06,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-6.00,,893.77
+67,1503027331,2026-03-13,2026-03-13 21:06,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,893.27
+68,1503027331,2026-03-14,2026-03-14 16:18,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,500.00,,,1393.27
+69,1503027331,2026-03-14,2026-03-14 21:25,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-10.00,,1383.27
+70,1503027331,2026-03-14,2026-03-14 21:25,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,1382.77
+71,1503027331,2026-03-15,2026-03-13 17:40,Mjtuckshop729 Lawley (Card 9979),S2S*MJTuckShop729      Lawley       ZAZA,Food,Groceries,,-30.00,,1352.77
+72,1503027331,2026-03-15,2026-03-13 14:06,Kwa Tshabalala Gen Lawley (Card 9979),AP *Kwa Tshabalala Gen Lawley       GPZA,Uncategorised,Uncategorised,,-66.00,,1286.77
+73,1503027331,2026-03-15,2026-03-13 16:03,Card Purchase & Cashback (R100.00): Shoprite Lenasiawn (Card 9979),Shoprite Trade Route M LENASIAWN      ZA,Food,Groceries,,-734.40,,552.37
+74,1503027331,2026-03-15,2026-03-15 05:07,Till Cash Withdrawal Fee,Till Cash Withdrawal Fee,Fees,Fees,,,-2.00,550.37
+75,1503027331,2026-03-15,2026-03-13 19:06,Mjtuckshop729 Lawley (Card 9979),S2S*MJTuckShop729      Lawley       ZAZA,Food,Groceries,,-33.00,,517.37
+76,1503027331,2026-03-15,2026-03-15 11:54,Cash Withdrawal: Ncr Ncr Germis Treef4 Germiston Wcza,NCR  NCR Germis TReef4 Germiston    WCZA,Cash,Cash Withdrawal,,-300.00,,217.37
+77,1503027331,2026-03-15,2026-03-15 11:54,Cash Withdrawal Fee,Cash Withdrawal Fee,Fees,Fees,,,-10.00,207.37
+78,1503027331,2026-03-15,2026-03-15 11:54,Payment Received: N Mulenga,N MULENGA,Other Income,Other Income,350.00,,,557.37
+79,1503027331,2026-03-15,2026-03-15 13:28,PayShap Payment Received: Noncedo,noncedo,Other Income,Other Income,200.00,,,757.37
+80,1503027331,2026-03-15,2026-03-15 13:34,Cash Withdrawal: Ncr Germiston Reef 3rdgermiston Gtza,NCR  Germiston Reef 3rdGermiston    GTZA,Cash,Cash Withdrawal,,-200.00,,557.37
+81,1503027331,2026-03-15,2026-03-15 13:34,Cash Withdrawal Fee,Cash Withdrawal Fee,Fees,Fees,,,-10.00,547.37
+82,1503027331,2026-03-15,2026-03-15 16:15,PayShap Payment Received: Noncedo,noncedo,Other Income,Other Income,100.00,,,647.37
+83,1503027331,2026-03-15,2026-03-15 21:06,Banking App Prepaid Purchase: MTN,MTN,Communication,Cellphone,,-10.00,,637.37
+84,1503027331,2026-03-15,2026-03-15 21:06,Prepaid Mobile Purchase Fee,Prepaid Mobile Purchase Fee,Fees,Fees,,,-0.50,636.87
+85,1503027331,2026-03-16,2026-03-14 16:31,Kwa Tshabalala Gen Lawley (Card 9979),AP *Kwa Tshabalala Gen Lawley       GPZA,Uncategorised,Uncategorised,,-110.00,,526.87
+86,1503027331,2026-03-16,2026-03-14 18:02,Aberossupermarket Johannesburg (Card 9979),S2S*ABEROSSUPERMARKET  Johannesburg ZAZA,Food,Groceries,,-77.00,,449.87
+87,1503027331,2026-03-16,2026-03-16 04:42,Live Better Round-up Transfer,Round-up Transfer,Transfer,Transfer,,-16.60,,433.27
+88,1503027331,2026-03-16,2026-03-16 18:01,Banking App Transfer from Live Better Savings Account (2037847307),Banking App Transfer from Live Better Savings Account (2037847307),Transfer,Transfer,16.60,,,449.87
+89,1503027331,2026-03-16,2026-03-16 18:53,(Pending) Kwa Tshabalala Gen Lawley (Card 9979),AP *Kwa Tshabalala Gen Lawley         ZA,Uncategorised,Uncategorised,,-55.00,,
+90,1503027331,2026-03-16,2026-03-16 19:14,PayShap Payment Received: Noncedo,noncedo,Other Income,Other Income,110.00,,,559.87
+91,1503027331,2026-03-17,2026-03-15 12:05,Pep Stores Germiston (Card 9979),PEP 6781 Germiston Ree GERMISTON    GPZA,Personal & Family,Clothing & Shoes,,-258.87,,301.00
+92,1503027331,2026-03-17,2026-03-15 16:30,Boxer Johannesburg (Card 9979),Boxer Spr Noord Street JOHANNESBURG GPZA,Food,Groceries,,-100.00,,201.00
+93,1503027331,2026-03-17,2026-03-17 06:11,Live Better Round-up Transfer,Round-up Transfer,Transfer,Transfer,,-3.00,,198.00
+94,1503027331,2026-03-17,2026-03-17 07:06,Cash Withdrawal: Ncr Jhb Kerk 2nd Johannesburg Gtza,NCR JHB Kerk 2nd       Johannesburg GTZA,Cash,Cash Withdrawal,,-100.00,,98.00
+95,1503027331,2026-03-17,2026-03-17 07:06,Cash Withdrawal Fee,Cash Withdrawal Fee,Fees,Fees,,,-10.00,88.00

@@ -71,6 +71,17 @@ class DatabaseManager:
             "UPDATE transactions SET category = ? WHERE id = ?", 
             to_update
         )
+        
+    def get_total_summary(self):
+        return self.cursor.execute(
+            "SELECT category, SUM(amount_cents) FROM transactions GROUP BY category ORDER BY SUM(amount_cents) ASC"
+        ).fetchall()
+    
+    def get_month_summary(self, month: str):
+        return self.cursor.execute(
+            "SELECT category, SUM(amount_cents) FROM transactions WHERE t_date LIKE ? GROUP BY category ORDER BY SUM(amount_cents) ASC",
+            (month.strip()+"%",)
+        ).fetchall()
                 
    
     @staticmethod    

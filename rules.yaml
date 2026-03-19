@@ -1,8 +1,34 @@
 # rules.yaml
+# categories:
+#   Transport: "^DL Bolt|^Uber|Bolt|uber"
+#   Groceries: "Boxer|Woolworths|Checkers|BRYANSTON|Chicken"
+#   Utilities: "M\\*Rain|Telkom|Electric|Cellphone|prepaid"
+#   Bank Fees: "FEE|Excess"
+#   Payments: "Payshap|Payment|transfer"
+#   Income: "Salary|Deposit|Refund|Credit|Cancelled"
 categories:
-  Transport: "^DL Bolt|^Uber|Bolt"
-  Groceries: "Boxer|Woolworths|Checkers|BRYANSTON|Chicken"
-  Utilities: "M\\*Rain|Telkom|Electric|Cellphone|prepaid"
-  Bank Fees: "FEE|Excess"
-  Payments: "Payshap|Payment|transfer"
-  Income: "Salary|Deposit|Refund|Credit|Cancelled"
+  # --- INCOME ---
+  Income: "Salary|Deposit|Refund|Payment Received|Design|Mashadro|Interest"
+
+  # --- TRANSPORT ---
+  Transport: "^DL Bolt|^Uber|Taxi|GAUTRAIN|uber"
+
+  # --- GROCERIES & HOUSEHOLD ---
+  Groceries: "Boxer|Woolworths|Checkers|BRYANSTON|PICK N PAY|SPAR|ABEROSSUPERMARKET"
+  
+  # --- DINING & TAKEOUT ---
+  Dining: "PEDROS|KFC|MCDONALDS|STEERS|DEBONAIRS|WIMPY"
+
+  # --- UTILITIES & BILLS ---
+  Utilities: "M\\*Rain|Telkom|Electric|VODACOM|MTN|CELL C|STASH BY LIBERTY"
+
+  # --- BANK FEES ---
+  Bank Fees: "FEE|COMMISSION|SERVICE CHARGE|MONTHLY MANAGEMENT"
+
+  # --- BUSINESS / TRANSFERS ---
+  Drawings: "Director's Drawings|N\\.M"
+  Rent: "Rent"
+  Transfers: "Transfer|Live Better Round-up"
+
+  # --- CASH ---
+  Cash: "Cash Withdrawal|ATM"
